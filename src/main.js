@@ -7,8 +7,10 @@ const app = new App({
 	}
 });
 
+/*
+!! UNCOMMENT THIS IF YOU WANT THE ADVANTAGES OF SERVICE-WORKER INSTEAD OF HTTP2 !!
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('service-worker.js');
 }
-
+*/
 export default app;
