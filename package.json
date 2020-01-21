@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "schischkin.info",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
@@ -17,8 +17,10 @@
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
     "sass": "^1.25.0",
+    "skeleton-sass-official": "^3.1.6",
     "svelte": "^3.0.0",
-    "svelte-preprocess": "^3.3.0"
+    "svelte-preprocess": "^3.3.0",
+    "svelte-typewriter": "^2.0.3"
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
