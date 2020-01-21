@@ -1,8 +1,5 @@
 FROM node:latest AS build
 
-# production = false; development = true
-ENV ROLLUP_WATCH=false
-
 WORKDIR /app
 COPY . /app
 
