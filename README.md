@@ -17,8 +17,10 @@
 `$ docker build . -t schischkin.info`  
 `$ docker-compose build web`  
 
-3. Deploy it/Start a container.
-`$ docker run -P -d schischkin.info`
-`$ docker-compose up -d`
+3. Deploy it/Start a container.  
+`$ docker run -P -d schischkin.info`  
+`$ docker-compose up -d`  
 
 ## Useful information
+
+If you want the advantages of the [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API), uncomment the lines 7-12 in `src/main.js`
