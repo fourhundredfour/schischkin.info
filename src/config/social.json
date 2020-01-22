@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "faGithub",
+        "url": "https://github.com/fourhundredfour"
+    },
+    {
+        "icon": "faDocker",
+        "url": "https://hub.docker.com/r/danielschischkin"
+    },
+    {
+        "icon": "faLinkedin",
+        "url": "https://www.linkedin.com/in/daniel-schischkin-67336a144/"
+    },
+    {
+        "icon": "faDiscord",
+        "url": "discord://lapsed#3413"
+    },
+    {
+        "icon": "faTelegram",
+        "url": "https://t.me/lapsedlistener"
+    }
+]
