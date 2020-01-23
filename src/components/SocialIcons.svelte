@@ -17,8 +17,8 @@ a {
 </style>
 <script>
 export let socialMediaLinks = {};
-import Icon from 'fa-svelte'
-import * as fa from '@fortawesome/free-brands-svg-icons'
+import Icon from 'fa-svelte';
+import * as fa from '@fortawesome/free-brands-svg-icons';
 </script>
 
 {#each socialMediaLinks as social}
