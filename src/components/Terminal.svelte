@@ -34,14 +34,14 @@ $output-color: rgba(255, 255, 255, .9);
  
     let showOutput = false;
     let cursorColor = "rgb(0, 167, 58)";
-    setTimeout(() => {
+    function showJobTitle() {
         showOutput = true;
         cursorColor = null;
-    }, 1200);
+    }
 </script>
 
 <div class="terminal">
-    <Typewriter cursor={cursorColor} interval={50}>
+    <Typewriter cursor={cursorColor} interval={50} on:done={showJobTitle}>
         <span class="input">./current_job.sh</span>
     </Typewriter>
     {#if showOutput}
