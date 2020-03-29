@@ -45,10 +45,10 @@ $output-color: rgba(255, 255, 255, .9);
         <span class="input">./current_job.sh</span>
     </Typewriter>
     {#if showOutput}
-        <span class="output" transition:fade="{{duration: 400}}">
+        <p class="output" transition:fade="{{duration: 400}}">
             <slot>
                 Hello world!
             </slot>
-        </span>
+        </p>
     {/if}
 </div>
