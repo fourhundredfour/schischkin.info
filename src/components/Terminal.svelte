@@ -25,6 +25,7 @@ $output-color: rgba(255, 255, 255, .9);
     .output {
         padding-left: 1rem;
         color: $output-color;
+        margin-bottom: 0;
     }
 }
 </style>
