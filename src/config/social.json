@@ -18,13 +18,5 @@
     {
         "icon": "faTelegram",
         "url": "https://t.me/lapsedlistener"
-    },
-    {
-        "icon": "faKey",
-        "url": "https://gist.github.com/fourhundredfour/9b1eef8b74c878a6fccb3cb6109812e0"
-    },
-    {
-        "icon": "faEnvelope",
-        "url": "mailto:daniel@schischkin.info"
     }
 ]
